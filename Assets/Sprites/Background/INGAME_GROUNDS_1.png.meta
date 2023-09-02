@@ -119,10 +119,10 @@ TextureImporter:
       name: ground1
       rect:
         serializedVersion: 2
-        x: 356
-        y: 179
-        width: 341
-        height: 197
+        x: 357
+        y: 180
+        width: 340
+        height: 195
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 1, y: 0, z: 0, w: 0}

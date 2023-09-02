@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 523b61f9355a5cc4a93b749514af1b3e
+guid: 3e0d22ad28af8934cb0c879962faa508
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -119,10 +119,10 @@ TextureImporter:
       name: ground1
       rect:
         serializedVersion: 2
-        x: 357
-        y: 180
-        width: 340
-        height: 195
+        x: 0
+        y: 487
+        width: 329
+        height: 197
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 1, y: 0, z: 0, w: 0}

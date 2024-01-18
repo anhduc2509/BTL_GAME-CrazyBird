@@ -9,6 +9,8 @@ public class MainMenu : MonoBehaviour
     [SerializeField]  private GameObject startMenu;
     [SerializeField]  private GameObject episodeMenu;
     [SerializeField]  private GameObject episode1;
+    [SerializeField]  private GameObject episode2;
+    [SerializeField]  private GameObject episode3;
 
 
     private void Start()
@@ -41,9 +43,19 @@ public class MainMenu : MonoBehaviour
             closeWindow(episodeMenu);
             openWindow(startMenu);
         }
-        else if(episode1.active)
+        else if (episode1.active)
         {
             closeWindow(episode1);
+            openWindow(episodeMenu);
+        }
+        else if (episode2.active)
+        {
+            closeWindow(episode2);
+            openWindow(episodeMenu);
+        }
+        else if (episode3.active)
+        {
+            closeWindow(episode3);
             openWindow(episodeMenu);
         }
     }
